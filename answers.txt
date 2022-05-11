@@ -1,0 +1,35 @@
+
+
+1. What is the purpose of a breakpoint?
+--------------------------------------------
+
+A breakpoint allow us to suspect the execusion of our application at a specific point in a file.
+
+This gives you greater control when debugging as it lets you work through code line by line or even function by function.
+
+The current state of objects and variables can also be easily viewed using breakpoints.
+
+2. Does the line of code on a breakpoint run when you start debugging?
+------------------------------------------------------------------------
+
+No, it does not. The program will stop executing in the line above the breakpoint.
+
+3. How do we debug the next line of code?
+--------------------------------------------
+
+The step over button that is available in the IDE lets you progress to the next line. 
+
+You can also change the breakpoint manually if you wish i.e. manually remove breakpoints and add new breakpoints.
+ß
+
+4. What does the step into command do?
+--------------------------------------------
+
+Step in will let you jump into a function/method and debug it line by line.
+
+5. What is the difference between evaluate expression and evaluate code fragment?
+-------------------------------------------------------------------------------------
+
+Evaluate expression loads a box which lets is run specific expressions. For example, the result when calling a method.
+
+In code fragment mode, you can evaulate multiple lines of code, assign variables for evaulation and more. This gives you more flexibility when testing expressions and methods.
